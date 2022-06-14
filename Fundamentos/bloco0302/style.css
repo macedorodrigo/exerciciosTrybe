@@ -1,0 +1,37 @@
+body {
+  background-color: antiquewhite;
+  font-size: 16px;
+  font-style: oblique;
+  text-align: center;
+  /* Espaçamento entre linhas */
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 65px;
+  color: orangered;
+  font-weight: 600;
+}
+ul,
+p {
+  background-color: black;
+  color: white;
+  font-style: initial;
+}
+p {
+  font-size: 300%;
+}
+#corfavorita {
+  background-color: black;
+}
+#amarelo {
+  color: yellow;
+}
+#vermelho {
+  color: red;
+}
+#marrom {
+  color: brown;
+}
+#verde {
+  color: green;
+}
