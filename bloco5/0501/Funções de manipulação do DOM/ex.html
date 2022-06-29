@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      main,
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Exercício 5.1 - JavaEscripito</h1>
+    </header>
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p id="doisAnos"></p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      function changeText() {
+        let paragraph = (document.getElementById('doisAnos').innerText =
+          'Serei um programador trabalhando e com inglês quase fluente')
+      }
+      function quadradoVerde() {
+        let quadroFicarVerde = (document.getElementsByClassName(
+          'main-content'
+        )[0].style.backgroundColor = 'rgb(76,164,109')
+      }
+
+      function quadroCentral (){
+        let quadroBranco = document.getElementsByTagName('section')[0].style.backgroundColor =
+        'white'
+      }
+
+      function (){
+        let correcaoTitulo = document.getElementsByTagName('h1')[0].innerText =
+        'Exercício 5.1 JavaScript'
+      }
+      function tudoMaiusculo (){
+        let pMaiusculo = document.getElementsByClassName('center-content')[0].style.textTransform =
+        'uppercase'
+      document.getElementsByTagName('.p').innerContent
+      }
+
+
+
+
+      //  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+    </script>
+  </body>
+</html>
