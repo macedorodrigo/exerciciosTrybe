@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="jquery-3.6.0.min.js">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="js/bootstrap.min.js">
+</head>
+<body>
+
+  <header class="container text-center">
+    <h1 class="display-4 text-muted">Trybe Trip</h1>
+    <h2>Concorra a uma viagem preenchendo este formulário:</h2>
+  </header>
+  <main class="container">
+<form action="">
+  <fieldset>
+<div class="form-group">
+    <label for="nomes">Nome:
+    <input class="form-control" type="text" id="nomes" maxlength="40" min="10">
+    <br>
+    <br>
+</div class="form-group">
+<div class="form-group">
+
+      <label for="email">Email:
+        <input class="form-control" type="text" id="email" maxlength="50" >
+</div class="form-group">
+<div class="form-group">
+
+        <label for="">
+          <br>
+          <label for="opcao1">Qual seu destino predileto?
+            <br><br>
+            <input class="form-control" type="radio" id="opcao1" name="opcoes">Cidade
+            <label for="opcao2">
+              <input class="form-control" type="radio" id="opcao2" name="opcoes">Campo
+              <label for="opcao3">
+                <input class="form-control" type="radio" id="opcao3" name="opcoes">Praia
+                <label for="opcao4">
+                  <input class="form-control" type="radio" id="opcao4" name="opcoes">Montanha
+</div class="form-group">
+<div class="form-group">
+
+  <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+  <textarea class="form-control" name="texto" id="textoarea" cols="50" rows="15" maxlength="500"></textarea>
+</div class="form-group">
+<div class="form-group">
+
+  <br>
+  <label for="data">Melhor data para viagem:
+    <br><br>
+    <input class="form-control" type="date" id="data">
+</div class="form-group">
+
+      <br>
+      <br>  
+      <button class="btn" class="btn-succeess"></button>
+</body>
+</html>
