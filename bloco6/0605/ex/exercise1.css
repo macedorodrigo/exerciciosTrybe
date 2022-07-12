@@ -1,0 +1,98 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+}
+
+article {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+}
+
+section {
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 768px) and (min-width: 350px) {
+  body {
+    background-color: rgb(247, 247, 247);
+    font-size: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+    text-decoration: ;
+    magin: 20px;
+  }
+  h1 {
+  }
+  section {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  figure {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 20px;
+    background-color: rgba(238, 191, 191, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  h1 {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(235, 156, 156, 0.4);
+    font-size: 40px;
+    color: rgb(255, 9, 9);
+    text-shadow: 3px 3px 3px rgb(180, 180, 180);
+  }
+  h2 {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(235, 156, 156, 0.4);
+    font-size: 36px;
+    color: rgb(255, 9, 9);
+    text-shadow: 2px 2px 3px rgb(173, 0, 0);
+  }
+  .h2 {
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    text-align: justify;
+    background-color: rgb(235, 156, 156, 0.4);
+    text-indent: 50px;
+  }
+}
